@@ -165,6 +165,8 @@ Cloud Credentials
 -----------------
 
 .. option::     --set-password=<USERNAME> <PROVIDER>
+    DEPRECATED in favor of sdb module.
+    See: SALT.SDB.KEYRING_DB or SALT.SDB.ENV documentation
 
     Configure password for a cloud provider and save it to the keyring.
     PROVIDER can be specified with or without a driver, for example:
